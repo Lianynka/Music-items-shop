@@ -1,0 +1,31 @@
+[{
+        "id": 1,
+        "title": "Bang & Olufsen F112",
+        "price": "$195,00",
+        "img": "img/headphones/AirPlus"
+    },
+    {
+        "id": 2,
+        "title": "Bang & Olufsen F112",
+        "price": "$145,00",
+        "img": "img/headphones/Bang"
+    },
+    {
+        "id": 3,
+        "title": "Sony TT56",
+        "price": "$98,00",
+        "img": "img/headphones/sony-tt56"
+    },
+    {
+        "id": 4,
+        "title": "JBL 334WN",
+        "price": "$140,00",
+        "img": "img/headphones/JBL 334WN"
+    },
+    {
+        "id": 5,
+        "title": "AirPulse BB34",
+        "price": "$145,00",
+        "img": "img/headphones/airplus-blue"
+    }
+]

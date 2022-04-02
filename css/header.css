@@ -1,0 +1,223 @@
+.header {
+    width: 100%;
+    color: var(--main-color);
+    font-family: "PT Sans", sans-serif;
+    background: url(../img/music-man.png);
+    background-size: cover;
+    background-position: center;
+}
+
+@media (max-width:767px) {
+    .layer {
+        background-color: rgba(242, 242, 242, 0.6);
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.header_box {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 24px;
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.hero {
+    min-width: 320px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+    margin: 100px 0 130px 0;
+}
+
+@media (min-width:767px) {
+    .hero {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        margin: 140px 0 190px;
+    }
+}
+
+.hero_main {
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.hero-h1 {
+    font-size: 75px;
+    color: #2a2a2a;
+    line-height: 1.1;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 900;
+}
+
+.hero_p {
+    margin-top: 35px;
+    font-size: 19px;
+    line-height: 1.4;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+}
+
+.hero_btns {
+    margin-top: 35px;
+    font-size: 12px;
+    line-height: 1em;
+    font-weight: 600;
+    margin-bottom: 35px;
+}
+
+.hero_btn-about {
+    margin: 10px;
+    color: white;
+    background: var(--blue-color);
+    padding: 19px 21px;
+    text-transform: uppercase;
+    border: none;
+    text-decoration: none;
+    text-align: center;
+    background-position: 50%;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 1em;
+    letter-spacing: .06em;
+}
+
+.hero_btn-about:hover {
+    color: white;
+    background-color: var(--main-color);
+    transition: 0.3s ease-in-out;
+}
+
+.hero_btn-shop {
+    margin: 10px;
+    color: var(--main-color);
+    background: transparent;
+    padding: 19px 21px;
+    text-transform: uppercase;
+    border-width: 1px;
+    border-color: #f2efe9;
+    border-style: solid;
+    text-decoration: none;
+    text-align: center;
+    background-position: 50%;
+    line-height: 1em;
+    letter-spacing: .06em;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.hero_btn-shop:hover {
+    color: var(--main-color);
+    background: white;
+    transition: 0.3s ease-in-out;
+}
+
+.bg-pic1 {
+    position: relative;
+    object-position: 50% 25.455%;
+    margin-bottom: -100px;
+}
+
+.features {
+    /* display: flex;
+    flex-direction: column; */
+    justify-content: center;
+    padding: 24px;
+    margin: 50px 0 30px 0;
+}
+
+.icon {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 50px;
+}
+
+.icon:last-child {
+    padding-bottom: 0px;
+}
+
+.icon--img-box {
+    background-color: var(--bg-color);
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-svg {
+    width: 26px;
+    height: 26px;
+}
+
+.icon-text {
+    margin: 8px;
+}
+
+.icon-header {
+    font-size: 22px;
+    line-height: 1.5;
+    font-family: Heebo, sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    font-style: normal;
+    letter-spacing: 0;
+    color: var(--main-color);
+}
+
+.icon-text {
+    font-size: 17px;
+    line-height: 1.6;
+    font-family: PT Sans, sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    font-style: normal;
+    letter-spacing: 0;
+    color: var(--main-color);
+    text-transform: none;
+}
+
+@media (min-width: 767px) {
+    .features-icons {
+        display: grid;
+        justify-content: start;
+        grid-template-columns: 1fr 1fr;
+    }
+    .icon {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: start;
+        flex-direction: column;
+    }
+    .icon:last-child {
+        padding-bottom: 50px;
+    }
+}
+
+@media (min-width: 990px) {
+    .features-icons {
+        display: grid;
+        align-items: center;
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .icon {
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        flex-direction: column;
+    }
+    .icon:last-child {
+        padding-bottom: 50px;
+    }
+}

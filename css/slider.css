@@ -1,0 +1,102 @@
+.slick-track {
+    display: flex;
+    align-items: flex-start;
+}
+
+.slick-list {
+    overflow: hidden;
+}
+
+.slider-container {
+    margin: 0px 0px 50px 0px;
+    padding: 0 32px 0 32px;
+}
+
+.slider {
+    position: relative;
+    padding: 0px 50px;
+}
+
+.slider .slick-arrow {
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+    font-size: 0;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    border: none;
+}
+
+.slider .slick-arrow:hover {
+    background-color: var(--main-color);
+}
+
+.slider .slick-prev {
+    left: 0;
+    background: no-repeat center/80% url('../img/left-chevron.png'), #4B4B4B;
+}
+
+.slider .slick-next {
+    right: 0;
+    background: no-repeat center/80% url('../img/rihgt-chevron.png'), #4B4B4B;
+}
+
+.slider .slick-dots {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider li {
+    list-style: none;
+    margin: 0 10px;
+}
+
+.slider .slick-dots button {
+    font-size: 0;
+    width: 10px;
+    height: 10px;
+    background-color: var(--red-color);
+    border-radius: 50%;
+    border: none;
+}
+
+.slider .slick-dots .slick-active button {
+    background-color: var(--blue-color);
+}
+
+.slider .slick-arrow.slick-disabled {
+    opacity: 0.2;
+}
+
+
+/* if centerMode is true */
+
+.slider-item {
+    transition: all 0.3s ease 0s;
+    text-align: center;
+    /* opacity: 0.4; */
+}
+
+
+/* .slider-item.slick-center {
+    opacity: 1;
+} */
+
+.headphones-box {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.red {
+    background-color: var(--bg-orange-color);
+}
+
+.red:hover {
+    background-color: var(--main-color);
+}

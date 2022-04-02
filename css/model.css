@@ -1,0 +1,87 @@
+                    .model-speaker {
+                        background-image: url(../img/bgorange.png);
+                        background-size: cover;
+                        background-attachment: fixed;
+                        padding: 20px;
+                        color: white;
+                    }
+                    
+                    .model-1 {
+                        padding: 90px 24px 60px 24px;
+                    }
+                    
+                    .model-2 {
+                        padding: 0px 24px 40px 24px;
+                    }
+                    
+                    @media(min-width:800px) {
+                        .model-speaker {
+                            display: grid;
+                            grid-template-columns: 40% 60%;
+                            justify-items: flex-end;
+                        }
+                        .model-2 {
+                            padding: 90px 24px 90px 24px;
+                        }
+                        .model-header {
+                            font-size: 40px;
+                            line-height: 1.2;
+                            font-family: Heebo, sans-serif;
+                            font-weight: 900;
+                        }
+                    }
+                    
+                    @media (max-width: 767px) {
+                        .model-header {
+                            font-size: 30px;
+                            line-height: 1.2;
+                        }
+                        .model-sub-header {
+                            font-size: 20px;
+                            line-height: 1.5;
+                        }
+                    }
+                    
+                    .model-sub-header {
+                        margin-top: 30px;
+                        font-size: 20px;
+                        line-height: 1.5;
+                        font-family: Heebo, sans-serif;
+                        font-weight: 700;
+                    }
+                    
+                    .model-tx {
+                        margin-top: 10px;
+                        font-size: 15px;
+                        line-height: 1.6;
+                        font-family: PT Sans, sans-serif;
+                        font-weight: 200;
+                    }
+                    
+                    .model-price {
+                        margin-top: 30px;
+                        font-size: 20px;
+                        line-height: 1.5;
+                        font-family: Heebo, sans-serif;
+                        font-weight: 700;
+                        margin-bottom: 35px;
+                    }
+                    
+                    .model-d {
+                        font-size: 31px;
+                    }
+                    
+                    #more-models {
+                        background-color: var(--main-color);
+                        color: white;
+                        border: none;
+                    }
+                    
+                    #more-models:hover {
+                        background-color: var(--blue-color);
+                        transition: .03s ease-in-out;
+                    }
+                    
+                    .model-btn {
+                        margin-left: -10px;
+                    }

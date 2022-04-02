@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@200;400;600;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-family: 'Heebo', 'PT Sans', sans-serif;
+    --main-color: rgb(47, 47, 47);
+    --blue-color: #2777b6;
+    --red-color: #eb5110;
+    --yellow-color: rgb(243, 203, 31);
+    --bg-color: rgb(242, 242, 242);
+    --bg-orange-color: rgb(252, 92, 26);
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+body._lock {
+    overflow: hidden;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0px auto;
+}
