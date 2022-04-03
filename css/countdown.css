@@ -1,0 +1,144 @@
+.countdown-container {
+    padding: 30px 0 90px;
+    justify-content: center;
+    align-items: center;
+}
+
+.time-counter {
+    position: relative;
+    min-width: 320px;
+    padding: 29px;
+    font-size: 16px;
+    line-height: 1.6;
+    font-weight: 400;
+    text-align: left;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+@media (min-width: 767px) {
+    .time-counter {
+        padding: 31px
+    }
+    .countdown-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+@media(min-width: 990px) {
+    .time-counter {
+        padding: 35px;
+    }
+    .countdown-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+.time-counter_head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0 20px;
+}
+
+.time-counter-h2 {
+    font-size: 22px;
+    line-height: 1.5;
+    font-weight: 700;
+    font-family: Heebo, sans-serif;
+    color: var(--main-color);
+    word-break: break-word;
+}
+
+.time-counter-p {
+    color: rgba(83, 83, 83, 0.45);
+    font-size: 15px;
+    line-height: 1.5;
+    color: var(--main-color);
+    text-decoration: line-through;
+}
+
+.time-counter_main {
+    margin-top: 45px;
+    margin-bottom: 20px;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center
+}
+
+.countdown_menu {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.countdown-num {
+    font-size: 36px;
+    font-family: Heebo, sans-serif;
+    font-weight: 900;
+    color: black;
+    justify-content: center;
+    text-align: center;
+}
+
+.countdown-name {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 200;
+    color: rgba(83, 83, 83, 0.45);
+    font-family: PT Sans, sans-serif;
+}
+
+.vertical-line {
+    width: 1px;
+    max-height: 90px;
+    background-color: rgba(0, 0, 0, 0.219);
+    margin: 0 9px;
+}
+
+.blue {
+    background: 0% 30.01% / cover no-repeat url(../img/bg-blue.webp);
+}
+
+.redC {
+    background: 0% 30.01% / cover no-repeat url(../img/bg-red.png);
+}
+
+.yellow {
+    background: 0% 30.01% / cover no-repeat url(../img/bg-yellow.png);
+}
+
+.blue-text {
+    color: var(--blue-color);
+}
+
+.redC-text {
+    color: var(--bg-orange-color);
+}
+
+.yellow-text {
+    color: rgb(243, 203, 31);
+}
+
+.time-counter-subheader {
+    font-size: 13px;
+    line-height: 1.5;
+    font-family: PT Sans, sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    font-style: normal;
+    letter-spacing: .1em;
+    margin-bottom: 30px;
+}
+
+.discount {
+    font-size: 22px;
+    font-weight: bold;
+    text-decoration: none;
+    padding-left: 5px;
+    display: inline;
+}

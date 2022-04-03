@@ -87,10 +87,12 @@
  .tab-container {
      border: 2px solid #f2f2f2;
      padding: 31px 29px 31px 29px;
-     margin: 50px 15px 0 15px;
+     margin: 50px 15px 15px 15px;
      justify-content: flex-start;
      display: flex;
      flex-direction: column;
+     border-radius: 10px;
+     box-shadow: 0 0 15px rgba(0, 0, 0, 0.247);
  }
  
  .item-name {

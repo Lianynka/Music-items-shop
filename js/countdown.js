@@ -1,32 +1,31 @@
-const days = document.getElementById('days');
-const hours = document.getElementById('hours');
-const minutes = document.getElementById('minutes');
-const seconds = document.getElementById('seconds');
-const countdown = document.getElementById('countdown');
-const loading = document.getElementById('loading');
+const days = document.querySelector(".days");
+const hours = document.querySelector(".hours");
+const minutes = document.querySelector(".minutes");
+const countdown = document.querySelectorAll(".countdown");
+const loading = document.querySelectorAll('loading');
 
-const currentYear = new Date().getFullYear();
-const targetTime = new Date(`May 31 ${currentYear} 00:00:00`);
+// const currentYear = new Date().getFullYear();
+// const targetTime = new Date(`May 31 ${currentYear} 00:00:00`);
+
+const countDownDate = new Date("May 23, 2022 15:37:25").getTime();
+
 
 function updateCountdown() {
-    const currentTime = new Date();
-    const diff = targetTime - currentTime;
+    const now = new Date().getTime();
+    const distance = countDownDate - now;
 
-    const d = Math.floor(diff / 1000 / 60 / 60 / 24);
-    const h = Math.floor(diff / 1000 / 60 / 60) % 24;
-    const m = Math.floor(diff / 1000 / 60) % 60;
-    const s = Math.floor(diff / 1000) % 60;
+    const day = Math.floor(distance / (1000 * 60 * 60 * 24));
+    const hour = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    const minute = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
 
-    days.innerHTML = d;
-    hours.innerHTML = h < 10 ? '0' + h : h;
-    minutes.innerHTML = m < 10 ? '0' + m : m;
-    seconds.innerHTML = s < 10 ? '0' + s : s;
+    days.innerHTML = day;
+    hours.innerHTML = hour;
+    minutes.innerHTML = minute;
 }
 
-
-setTimeout(() => {
-    loading.remove();
-    countdown.style.display = 'flex';
-}, 1000);
+// setTimeout(() => {
+//     delete countdown;
+//     countdown.style.display = 'flex';
+// }, 1000);
 
 setInterval(updateCountdown, 1000);
