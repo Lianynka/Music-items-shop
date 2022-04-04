@@ -100,3 +100,7 @@
 .red:hover {
     background-color: var(--main-color);
 }
+
+.model-text {
+    background-color: aquamarine;
+}
