@@ -1,31 +1,78 @@
-[{
-        "id": 1,
-        "title": "Bang & Olufsen F112",
-        "price": "$195,00",
-        "img": "img/headphones/AirPlus"
-    },
-    {
-        "id": 2,
-        "title": "Bang & Olufsen F112",
-        "price": "$145,00",
-        "img": "img/headphones/Bang"
-    },
-    {
-        "id": 3,
-        "title": "Sony TT56",
-        "price": "$98,00",
-        "img": "img/headphones/sony-tt56"
-    },
-    {
-        "id": 4,
-        "title": "JBL 334WN",
-        "price": "$140,00",
-        "img": "img/headphones/JBL 334WN"
-    },
-    {
-        "id": 5,
-        "title": "AirPulse BB34",
-        "price": "$145,00",
-        "img": "img/headphones/airplus-blue"
-    }
-]
+  [{
+          "id": 1,
+          "title": "JBL RR-56",
+          "price": "$110.00",
+          "img": "img/jbl-rr-56.png",
+          "category": "featured"
+      },
+      {
+          "id": 2,
+          "title": "GBL GT-345",
+          "price": "$120.00",
+          "img": "img/gbl-gt-345.png",
+          "category": "featured"
+      },
+      {
+          "id": 3,
+          "title": "JBL BR-55",
+          "price": "$110.00",
+          "img": "img/jbl-rb-55.png",
+          "category": "new"
+      },
+      {
+          "id": 4,
+          "title": "JBL OR-57",
+          "price": "$98.00",
+          "img": "img/jbl-or-56.png"
+      },
+      {
+          "id": 5,
+          "title": "Sony YT555",
+          "price": "$140.00",
+          "img": "img/sony.png",
+          "category": "new"
+      },
+      {
+          "id": 6,
+          "title": "JBL Party PT-25",
+          "price": "$180.00",
+          "img": "img/speakers/jbl-party.png"
+      },
+      {
+          "id": 7,
+          "title": "JBose G656 - A ",
+          "price": "$65.00",
+          "img": "img/486-model.png",
+          "category": "sale"
+      },
+      {
+          "id": 8,
+          "title": "Bang & Olufsen F112",
+          "price": "$195.00",
+          "img": "img/headphones/AirPlus"
+      },
+      {
+          "id": 9,
+          "title": "Bang & Olufsen F112",
+          "price": "$145.00",
+          "img": "img/headphones/Bang"
+      },
+      {
+          "id": 10,
+          "title": "Sony TT56",
+          "price": "$98.00",
+          "img": "img/headphones/sony-tt56"
+      },
+      {
+          "id": 11,
+          "title": "JBL 334WN",
+          "price": "$140.00",
+          "img": "img/headphones/JBL 334WN"
+      },
+      {
+          "id": 12,
+          "title": "AirPulse BB34",
+          "price": "$145.00",
+          "img": "img/headphones/airplus-blue"
+      }
+  ]

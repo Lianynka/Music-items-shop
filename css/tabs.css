@@ -126,6 +126,7 @@
      font-weight: 500;
      line-height: 1.2em;
      letter-spacing: .05em;
+     cursor: pointer;
  }
  
  .item-btn:hover {

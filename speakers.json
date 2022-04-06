@@ -1,37 +1,60 @@
-[{
-        "id": 1,
-        "title": "JBL RR-56",
-        "price": "$110,00",
-        "img": "img/speakers/jbl-rr-56"
+[
+
+    {
+        "id": 13,
+        "title": "Senniheiser SN-67",
+        "price": 213.99,
+        "img": "img/481-model.png",
+        "category": "featured",
+        "type": "headphones"
     },
     {
-        "id": 2,
-        "title": "GBL GT-345",
-        "price": "$120,00",
-        "img": "img/speakers/jbl-gt-345"
+        "id": 14,
+        "title": "SONY S380",
+        "price": 295.99,
+        "img": "img/483-model.png",
+        "category": "featured",
+        "type": "headphones"
     },
     {
-        "id": 3,
-        "title": "JBL BR-55",
-        "price": "$110,00",
-        "img": "img/speakers/jbl-rb-55"
+        "id": 15,
+        "title": "JMarshall DR67",
+        "price": 459.99,
+        "img": "img/484-model.png",
+        "category": "sale",
+        "type": "headphones"
     },
     {
-        "id": 4,
-        "title": "JBL OR-57",
-        "price": "$98,00",
-        "img": "img/speakers/jbl-or-56"
+        "id": 16,
+        "title": "V-MODA ER65",
+        "price": 80.99,
+        "img": "img/485-model.png",
+        "category": "sale",
+        "type": "headphones"
     },
     {
-        "id": 5,
-        "title": "Sony YT555",
-        "price": "$140,00",
-        "img": "img/speakers/sony"
+        "id": 17,
+        "title": "AirPulse R255",
+        "price": 165.99,
+        "img": "img/487-model.png",
+        "category": "sale",
+        "type": "headphones"
     },
     {
-        "id": 6,
-        "title": "JBL Party PT-25",
-        "price": "$180,00",
-        "img": "img/speakers/jbl-party"
+        "id": 18,
+        "title": "SONY TT56",
+        "price": 98.0,
+        "img": "img/489-model.png",
+        "category": "new",
+        "type": "headphones"
+    },
+    {
+        "id": 19,
+        "title": "JBL 334WN",
+        "price": 140.99,
+        "img": "img/491-model.png",
+        "category": "new",
+        "type": "speaker"
     }
+
 ]
